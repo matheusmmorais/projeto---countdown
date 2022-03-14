@@ -36,6 +36,7 @@ section#countdown {
   font-size: 3em;
   color: var(--black);
   margin-top: 25px;
+  font-family: 'Poppins', sans-serif;
 }
 
 #countdown > div {
@@ -72,6 +73,7 @@ h1 {
   color: var(--purple);
   font-size: 2.5em;
   font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
 }
 
 span {

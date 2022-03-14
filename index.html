@@ -6,28 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countdown</title>
     <link rel="stylesheet" href="./public/index.css">
-    <script src="/public/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-        <img id="img-1" src="public/img/top-image.svg">
+    <img id="img-1" src="public/img/top-image.svg">
         <div id="middle">
             <div id="conteiner1">
                     <h1>READY TO LAUNCH IN...</h1>
                         <section id="countdown">
-                            <div id="dias">
+                            <div id="count1">
                                 <span>dias</span>
-                                <p>00</p>
+                                <p id="days">00</p>
                             </div>
-                            <div id="horas">
+                            <div id="count-2">
                                 <span>horas</span>
-                                <p>00</p></div>
-                            <div id="minutos">
-                                <span>minutos</span>
-                                <p>00</p>
+                                <p id="hours">00</p>
                             </div>
-                            <div id="segundos"> 
+                            <div id="count-3">
+                                <span>minutos</span>
+                                <p id="minutes">00</p>
+                            </div>
+                            <div id="count-4"> 
                                 <span>segundos</span>
-                                <p>00</p>
+                                <p id="seconds">00</p>
                             </div>
                     </section>
                 <h3>Inscreva-se para saber mais sobre o lançamento!</h3>
@@ -39,4 +42,5 @@
         </div>
     <img id="img-2" src="public/img/bottom-image.svg">
 </body>
+    <script src="./public/index.js"> </script>
 </html>
