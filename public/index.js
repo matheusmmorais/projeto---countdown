@@ -1,5 +1,5 @@
 // set the end of date
-var countDownDate = new Date("Mar 15, 2023 12:23:00");
+var countDownDate = new Date("Mar 01, 2030 12:23:00");
 
 // conditions
 
